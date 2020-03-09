@@ -12,4 +12,7 @@ export class JiraComponent implements OnInit {
   ngOnInit() {
   }
 
+NavToList(){
+  alert("NavToList is clicked");
+}
 }

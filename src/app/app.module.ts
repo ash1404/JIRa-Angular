@@ -4,11 +4,11 @@ import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
 import { HelloComponent } from './hello.component';
-import { JIRAComponent } from './jira/jira.component';
+import { JiraComponent } from './jira/jira.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
-  declarations: [ AppComponent, HelloComponent, JIRAComponent ],
+  declarations: [ AppComponent, HelloComponent, JiraComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
