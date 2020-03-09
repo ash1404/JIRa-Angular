@@ -5,7 +5,7 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './jira.component.html',
   styleUrls: ['./jira.component.css']
 })
-export class JIRAComponent implements OnInit {
+export class JiraComponent implements OnInit {
 
   constructor() { }
 
